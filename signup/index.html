@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signIn & signUp | green</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <div class="signIn-signIn">
+          <form class="signIn">
+            <h2>Sign In</h2>
+            <div class="input-form">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input-form">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <input class="btn" type="submit" value="Login" />
+            <p>Or sig in with social media</p>
+            <div class="social-media">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-google"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+          </form>
+        </div>
+        <div class="signUp-signUp">
+          <form class="signUp">
+            <h2>Sign Up</h2>
+            <div class="input-form">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input-form">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-form">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <input class="btn" type="submit" value="signUp" />
+            <p>Or sig in with social media</p>
+            <div class="social-media">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-google"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="pannel-container">
+        <div class="pannel-left pannel">
+          <div class="content">
+            <h3>Are you new here?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium nobis vitae, tempore dolore ipsam ad officia voluptates
+              sit dolor animi?
+            </p>
+            <button class="btn transparent" id="signInBtn">sign In</button>
+          </div>
+          <img src="./image/mmm-removebg-preview.png" />
+        </div>
+        <div class="pannel-right pannel">
+          <div class="content">
+            <h3>Are you new here?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium nobis vitae, tempore dolore ipsam ad officia voluptates
+              sit dolor animi?
+            </p>
+            <button class="btn transparent" id="signUpBtn">sign Up</button>
+          </div>
+          <img src="./image/sit-back-and-relax-removebg-preview.png" />
+        </div>
+      </div> 
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
